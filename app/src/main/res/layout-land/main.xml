@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="13dp"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pulsa aquí"
+        android:textSize="25sp"
+        android:id="@+id/textViewEntrada"
+        android:layout_weight="8"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TextViewSalida"
+                android:text="Pulsaciones: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+</LinearLayout>
